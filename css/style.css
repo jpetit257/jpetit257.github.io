@@ -2,6 +2,10 @@
     margin-top: 3rem;
 }
 
+.text-small {
+    font-size: 0.7rem;
+}
+
 .card {
     position: relative;
     display: -ms-flexbox;
