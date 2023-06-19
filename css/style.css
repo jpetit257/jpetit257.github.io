@@ -351,3 +351,7 @@ navbar-default {
   fieldset[disabled] .navbar-default .btn-link:focus {
     color: #ccc;
   }
+
+  ul > li {
+    font-size: 1rem;
+  }
