@@ -7,17 +7,27 @@
             </div>
             <div class="col-lg-12">
                 <p>
-                    The selected artifact for the last part of the project (Databases) is the same mobile application used in the Software Engineering and Design part. As already described, it is an Inventory Management app for Android, developed between September and October 2022 as part of the Mobile Application and Programming class. The language used to develop this application is Java and the IDE used is Android Studio.
+                    The selected artifact for the last part of the project (Databases) is the same mobile application used in the Software Engineering 
+                    and Design part. As already described, it is an Inventory Management app for Android, developed between September and October 2022 
+                    as part of the Mobile Application and Programming class. The language used to develop this application is Java and the IDE used is 
+                    Android Studio.
                 </p>
                 <p>
-                    The inventory management app allows users to add, delete, update, and retrieve inventory through a user interface. This artifact was selected as it demonstrates my ability to implement and work with relational databases to store, retrieve and manipulate data. In this case, the database management program used was MySql lite.
+                    The inventory management app allows users to add, delete, update, and retrieve inventory through a user interface. This artifact was 
+                    selected as it demonstrates my ability to implement and work with relational databases to store, retrieve and manipulate data. In this 
+                    case, the database management program used was MySql lite.
                 </p>
                 <p>
-                    I was able to get some of the things I planned done, but for the most part the changes that were made were not in my original plans. But I’m still quite happy with the changes that I’ve made because one of them fixes a major security flaw in the application. Below is a list of the changes that were made to the application as part of the Database enhancement.
+                    I was able to get some of the things I planned done, but for the most part the changes that were made were not in my original plans. 
+                    But I’m still quite happy with the changes that I’ve made because one of them fixes a major security flaw in the application. Below 
+                    is a list of the changes that were made to the application as part of the Database enhancement.
                 </p>
                 <ul>
                     <li>Add feature to hash password before storing it into the database.</li>
-                    <li>Update login process to hash the user-entered password and compare it against the hash value from the database instead of comparing plain-text values.</li>
+                    <li>
+                        Update login process to hash the user-entered password and compare it against the hash value from the database instead of comparing 
+                        plain-text values.
+                    </li>
                     <li>Re-write some of the functions to simplify codes.</li>
                     <li>Close each connection to the DB after the specified action is completed.</li>
                     <li>Modify the code to improve resource management.</li>
@@ -25,20 +35,31 @@
                     <li>Add more comments to the code.</li>
                 </ul>
                 <p>
-                    The process of enhancing this application from a database standpoint was not easy. First, it took me a while to figure out what else could be done to improve the application as I had already gone and improve it from an engineering and design perspective. But once I realized the huge security risk that involved saving the user-entered password in plain-text upon registering a new user, I acted on it immediately. Fixing it was not easy though. I knew exactly what needed to be done. It was easy for me to explain it in plain English terms. But coding it and making it work was a different story. The difficult part of fixing it was because I needed to import and use an external library. There was information available on the internet on what library to use. A lot of thread suggested BCrypt provided examples of how to use it. But documentation on how to actually add it to the project was really lacking.
+                    The process of enhancing this application from a database standpoint was not easy. First, it took me a while to figure out what else could 
+                    be done to improve the application as I had already gone and improve it from an engineering and design perspective. But once I realized 
+                    the huge security risk that involved saving the user-entered password in plain-text upon registering a new user, I acted on it immediately. 
+                    Fixing it was not easy though. I knew exactly what needed to be done. It was easy for me to explain it in plain English terms. But coding 
+                    it and making it work was a different story. The difficult part of fixing it was because I needed to import and use an external library. 
+                    There was information available on the internet on what library to use. A lot of thread suggested BCrypt provided examples of how to use 
+                    it. But documentation on how to actually add it to the project was really lacking.
                 </p>
                 <p>
-                    In this assignment, I met three out of the five course objectives. I employed “strategies for building a collaborative environments that enable diverse audience” by adding more comments to the code. I was able to demonstrate “an ability to use well-founded and innovative techniques, skills, and tools in computing practices” by importing the BCrypt external library into my project and use it to hash the user-entered password before storing it and upon logging in.  And finally, I developed a “security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities” by identifying this huge security vulnerability which consists of storing user-entered passwords in plain text, and subsequently fix it.
+                    In this assignment, I met three out of the five course objectives. I employed “strategies for building a collaborative environments that 
+                    enable diverse audience” by adding more comments to the code. I was able to demonstrate “an ability to use well-founded and innovative 
+                    techniques, skills, and tools in computing practices” by importing the BCrypt external library into my project and use it to hash the 
+                    user-entered password before storing it and upon logging in.  And finally, I developed a “security mindset that anticipates adversarial 
+                    exploits in software architecture and designs to expose potential vulnerabilities” by identifying this huge security vulnerability which 
+                    consists of storing user-entered passwords in plain text, and subsequently fix it.
                 </p>
                 <p>
-                    As in the previous assignment,  I learned that it often takes longer than anticipated to code something and make it work, whether it’s a new feature, an entirely new project, or just a bugfix.
+                    As in the previous assignment,  I learned that it often takes longer than anticipated to code something and make it work, whether it’s a 
+                    new feature, an entirely new project, or just a bugfix.
                 </p>
                 
                 <!-- Links to projects on Github -->
                 <div class="mt-3">
                     <h3>Links to Projects</h3>
                     <ul>
-                        // Todo: Fix links
                         <li><a href="https://github.com/jpetit257/InventoryMgtApp-Old">Link to Original Inventory Management App</a></li>
                         <li><a href="https://github.com/jpetit257/InventoryMgtApp-New">Link to Enhanced Inventory Management App</a></li>
                     </ul>
