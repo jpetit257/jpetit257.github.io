@@ -7,30 +7,66 @@
             </div>
             <div class="col-lg-12">
                 <p>
-                    The artifact chosen for this part of the course (Data Structure and Algorithms) is console application developed as part of the Data Structure and Algorithms class (CS-260). I took this class over 2 year ago. To be more specific, it was between January and February 2020. As far as the application itself is concerned, it is a console application that reads a large amount of data from a .csv file and allows the user to interact with the data by loading it into memory. Binary Tree algorithm is used to map the data by BidId. Then the user is able to print the entire database, search for a particular Bid using the BidId, delete a bid using the BidId, and finally exit the application.
+                    The artifact chosen for this part of the course (Data Structure and Algorithms) is console application developed as part of the Data 
+                    Structure and Algorithms class (CS-260). I took this class over 2 year ago. To be more specific, it was between January and February 
+                    2020. As far as the application itself is concerned, it is a console application that reads a large amount of data from a .csv file 
+                    and allows the user to interact with the data by loading it into memory. Binary Tree algorithm is used to map the data by BidId. 
+                    Then the user is able to print the entire database, search for a particular Bid using the BidId, delete a bid using the BidId, and 
+                    finally exit the application.
                 </p>
                 <p>
-                    This artifact was selected as it demonstrates my ability to interact with massive amounts of data and allow the program to search and retrieve particular items as well as delete them in the most efficient way possible using Algorithms. One of the things I did to improve the application – which also showcases my understanding and ability to use algorithms – is fully implementing searching and deletion of items in an efficient way. The original program did have the ability to search, but it was only possible to search for one hardcoded value. The user didn’t have the option to choose which item (bid) to search for. The same goes for deletion of an item. The program allowed the user to delete a hardcoded itemId upon request, but the user didn’t have the ability to choose which item to delete.
+                    This artifact was selected as it demonstrates my ability to interact with massive amounts of data and allow the program to search and 
+                    retrieve particular items as well as delete them in the most efficient way possible using Algorithms. One of the things I did to improve 
+                    the application – which also showcases my understanding and ability to use algorithms – is fully implementing searching and deletion of 
+                    items in an efficient way. The original program did have the ability to search, but it was only possible to search for one hardcoded 
+                    value. The user didn’t have the option to choose which item (bid) to search for. The same goes for deletion of an item. The program 
+                    allowed the user to delete a hardcoded itemId upon request, but the user didn’t have the ability to choose which item to delete.
                 </p>
                 <p>
-                    I was also able to identify a couple of other issues. For instance, the application begins by printing a few strings, which display the available features to the user along with the choice number associated with each. Then it prompts the user for his or her choice. Although the application is expecting an integer, it doesn’t prevent the user from entering a non-integer value. And if a non-integer value is entered, the program goes into an infinite loop printing the available features, which renders the program unusable. I was able to handle this. And now, if the user enters a non-integer value, it lets the user know it’s an invalid entry, then prompts the user to re-enter a valid number. Handling this issue also ended up handling an overflow issue, whereby if the user entered a number greater than the max value of an integer before the fix, the program would also go into the infinite loop. Now, it will prompt the user to enter a valid number since the previously entered number was invalid.
+                    I was also able to identify a couple of other issues. For instance, the application begins by printing a few strings, which display the 
+                    available features to the user along with the choice number associated with each. Then it prompts the user for his or her choice. Although 
+                    the application is expecting an integer, it doesn’t prevent the user from entering a non-integer value. And if a non-integer value is 
+                    entered, the program goes into an infinite loop printing the available features, which renders the program unusable. I was able to handle 
+                    this. And now, if the user enters a non-integer value, it lets the user know it’s an invalid entry, then prompts the user to re-enter a 
+                    valid number. Handling this issue also ended up handling an overflow issue, whereby if the user entered a number greater than the max value 
+                    of an integer before the fix, the program would also go into the infinite loop. Now, it will prompt the user to enter a valid number since 
+                    the previously entered number was invalid.
                 </p>
                 <p>
                     I was able to meet 3 of the 5 course objectives as far as the enhancements to the applications are concerned: 
                 </p>
                 <ul>
-                    <li>“Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)” was met by my choice of using the BinarySearchTree algorithm instead of, say string comparisons. A binary search is exponentially faster than traditional string comparison, and the larger the dataset, the faster it is compared to the string comparison method. </li>
-                    <li>“Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)” was also met by the choice of using BinarySearchTree in the development of this application.</li>
-                    <li>“Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources” was finally met by my ability to identify the security vulnerabilities in the program such as buffer overflow and input sanitation, and effectively fix them.</li>
+                    <li>
+                        “Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards 
+                        appropriate to its solution, while managing the trade-offs involved in design choices (data structures and algorithms)” was met by my choice 
+                        of using the BinarySearchTree algorithm instead of, say string comparisons. A binary search is exponentially faster than traditional string 
+                        comparison, and the larger the dataset, the faster it is compared to the string comparison method. 
+                    </li>
+                    <li>
+                        “Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of 
+                        implementing computer solutions that deliver value and accomplish industry-specific goals (software engineering/design/database)” was 
+                        also met by the choice of using BinarySearchTree in the development of this application.
+                    </li>
+                    <li>
+                        “Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, 
+                        mitigate design flaws, and ensure privacy and enhanced security of data and resources” was finally met by my ability to identify the 
+                        security vulnerabilities in the program such as buffer overflow and input sanitation, and effectively fix them.
+                    </li>
                 </ul>
                 <p>
-                    The process of enhancing the application was not as fun as the Software Design and Engineering part of the project, as I ran into many issues. Since I took this class so long ago, I was not even able to launch the application in debug mode and run it without spinning my wheels. It took a really long time to even get it to run and see what it was doing. Fixing issues that were identified was another setback. Although I was able to quickly identify certain issues. Coming up with a fix that really worked was challenging. But, in the end, it was really rewarding to finally get the fix for the identified issues to work. And that rewarding feeling that always follows the setbacks is the reason I keep going.
+                    The process of enhancing the application was not as fun as the Software Design and Engineering part of the project, as I ran into many issues. 
+                    Since I took this class so long ago, I was not even able to launch the application in debug mode and run it without spinning my wheels. It 
+                    took a really long time to even get it to run and see what it was doing. Fixing issues that were identified was another setback. Although I was 
+                    able to quickly identify certain issues. Coming up with a fix that really worked was challenging. But, in the end, it was really rewarding to 
+                    finally get the fix for the identified issues to work. And that rewarding feeling that always follows the setbacks is the reason I keep going.
                 </p>
                 <p>
-                    What I learned in this assignment is that my expectations as far as what – or how long – it will take to fix issues is not always going to be accurate. It’s most likely going to take longer than expected. So, I need to be generous when allotting time for these tasks, whether it’s in a classroom environment or workplace.
+                    What I learned in this assignment is that my expectations as far as what – or how long – it will take to fix issues is not always going to be 
+                    accurate. It’s most likely going to take longer than expected. So, I need to be generous when allotting time for these tasks, whether it’s in 
+                    a classroom environment or workplace.
                 </p>
                 
-
+                <!-- Links to projects on Github -->
                 <div>
                     <h3>Links to Projects</h3>
                     <ul>
